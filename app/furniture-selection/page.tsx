@@ -65,7 +65,7 @@ const FurnitureSelection = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
+      <section className="relative h-96 flex items-center justify-center overflow-hidden -mt-14 lg:-mt-[96px]">
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1920&h=1080&fit=crop"

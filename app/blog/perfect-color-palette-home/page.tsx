@@ -20,7 +20,7 @@ export default function PerfectColorPaletteHome() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-r from-accent to-brown-600">
+      <section className="relative h-96 bg-gradient-to-r from-accent to-brown-600 -mt-14 lg:-mt-[96px]">
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 container-custom h-full flex items-center">
           <div className="max-w-4xl">

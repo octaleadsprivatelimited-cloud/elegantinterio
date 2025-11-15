@@ -65,7 +65,7 @@ const SpacePlanning = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
+      <section className="relative h-96 flex items-center justify-center overflow-hidden -mt-14 lg:-mt-[96px]">
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&h=1080&fit=crop"
