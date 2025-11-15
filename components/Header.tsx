@@ -301,11 +301,8 @@ const Header = () => {
         </header>
       </div>
 
-      {/* Spacer for fixed header + top bar */}
-      {/* Main header height */}
-      <div className="h-14 lg:h-14"></div>
-      {/* Top bar height (desktop only) collapses on scroll */}
-      <div className={`hidden lg:block transition-all duration-300 ${isScrolled ? 'h-0' : 'h-10'}`}></div>
+      {/* Spacer for fixed header - exact height to prevent content overlap */}
+      <div className="h-14 lg:h-[96px]"></div>
     </>
   );
 };

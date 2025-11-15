@@ -30,7 +30,7 @@ const Services = () => {
         'Lighting design and installation',
         'Custom storage solutions'
       ],
-      image: 'https://placehold.co/1200x800?text=Residential+Design',
+      image: '/images/service-residential-design.jpg',
       link: '/residential-design',
       duration: '4-8 weeks'
     },
@@ -46,7 +46,7 @@ const Services = () => {
         'Brand integration',
         'Workplace wellness design'
       ],
-      image: 'https://placehold.co/1200x800?text=Commercial+Design',
+      image: '/images/service-commercial-design.jpg',
       link: '/commercial-design',
       duration: '6-12 weeks'
     },
@@ -62,7 +62,7 @@ const Services = () => {
         'Color scheme implementation',
         'Accent color coordination'
       ],
-      image: 'https://placehold.co/1200x800?text=Color+Consultation',
+      image: '/images/service-color-consultation.jpg',
       link: '/color-consultation',
       duration: '1-2 weeks'
     },
@@ -78,7 +78,7 @@ const Services = () => {
         'Multi-purpose area planning',
         'Accessibility considerations'
       ],
-      image: 'https://placehold.co/1200x800?text=Space+Planning',
+      image: '/images/service-space-planning.jpg',
       link: '/space-planning',
       price: 'Starting at $1,500',
       duration: '2-4 weeks'
@@ -95,7 +95,7 @@ const Services = () => {
         'Maintenance planning',
         'Warranty management'
       ],
-      image: 'https://placehold.co/1200x800?text=Furniture+Selection',
+      image: '/images/service-furniture-selection.jpg',
       link: '/furniture-selection',
       price: 'Starting at $2,000',
       duration: '3-6 weeks'
@@ -112,7 +112,7 @@ const Services = () => {
         'Permit and compliance handling',
         'Post-renovation support'
       ],
-      image: 'https://placehold.co/1200x800?text=Renovation+Services',
+      image: '/images/service-renovation-services.jpg',
       link: '/renovation-services',
       price: 'Starting at $15,000',
       duration: '8-16 weeks'
@@ -340,11 +340,11 @@ const Services = () => {
             
             <div className="relative">
               <Image
-                src="https://placehold.co/800x900?text=Why+Choose+Us"
+                src="/images/Gallery-2.jpg"
                 alt="Why choose us"
                 width={600}
                 height={700}
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-2xl object-cover"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/10 rounded-full"></div>
             </div>
