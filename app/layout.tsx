@@ -14,11 +14,51 @@ const siteUrl =
 
 export const metadata: Metadata = {
   title: {
-    default: 'Elegant Interio | Bespoke Interior Designers in Hyderabad',
-    template: '%s | Elegant Interio',
+    default: 'Elegant Interio | Best Interior Designers in Hyderabad, Telangana | Luxury Home & Office Interiors',
+    template: '%s | Elegant Interio - Interior Designers Hyderabad',
   },
   description:
-    'Elegant Interio delivers bespoke residential and commercial interiors across Hyderabad. Visit our studio at Road Number 14, Alkapur Township, Puppalguda, Manikonda, Telangana 500089 or book a consultation online.',
+    'Elegant Interio is Hyderabad\'s leading interior design company offering luxury residential & commercial interior design services. Award-winning designers in Alkapur Township, Puppalguda, Manikonda. Free consultation. 60+ projects completed. Call +91 90103 53837.',
+  keywords: [
+    'interior designers Hyderabad',
+    'interior design Hyderabad',
+    'best interior designers in Hyderabad',
+    'luxury interior designers Telangana',
+    'residential interior design Hyderabad',
+    'commercial interior design Hyderabad',
+    'interior design company Hyderabad',
+    'home interior designers Hyderabad',
+    'office interior design Hyderabad',
+    'interior decorators Hyderabad',
+    'modern interior design Hyderabad',
+    'turnkey interior solutions Hyderabad',
+    'interior design services Hyderabad',
+    'Alkapur Township interior designers',
+    'Puppalguda interior design',
+    'Manikonda interior designers',
+    'HITEC City interior design',
+    'Gachibowli interior designers',
+    'Banjara Hills interior design',
+    'Jubilee Hills interior designers',
+    'Kondapur interior design',
+    'Madhapur interior designers',
+    'Begumpet interior design',
+    'Secunderabad interior designers',
+    'Ameerpet interior design',
+    'Kukatpally interior designers',
+    'Miyapur interior design',
+    'luxury home interiors Hyderabad',
+    'apartment interior design Hyderabad',
+    'villa interior design Hyderabad',
+    '3D interior design Hyderabad',
+    'turnkey interior contractors Hyderabad',
+    'interior design studio Hyderabad',
+    'top interior designers Hyderabad',
+    'affordable interior design Hyderabad',
+    'premium interior design Hyderabad',
+    'Elegant Interio',
+    'Elegant Interio Hyderabad',
+  ],
   authors: [{ name: 'Elegant Interio' }],
   creator: 'Elegant Interio',
   publisher: 'Elegant Interio',
@@ -33,26 +73,26 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'en_US',
+    locale: 'en_IN',
     url: siteUrl,
-    title: 'Elegant Interio | Bespoke Interior Designers in Hyderabad',
+    title: 'Elegant Interio | Best Interior Designers in Hyderabad, Telangana | Luxury Interiors',
     description:
-      'From luxury residences to smart commercial spaces, Elegant Interio crafts personalised interiors across Hyderabad and the greater Telangana region.',
-    siteName: 'Elegant Interio',
+      'Hyderabad\'s premier interior design company. Luxury residential & commercial interiors in Alkapur Township, Puppalguda, Manikonda. Award-winning designs. 60+ projects. Free consultation. Call +91 90103 53837.',
+    siteName: 'Elegant Interio - Interior Designers Hyderabad',
     images: [
       {
-        url: `${siteUrl}/images/slider-1.jpg`,
+        url: `${siteUrl}/logo-white.png`,
         width: 1200,
         height: 630,
-        alt: 'Elegant Interio interior design showcase',
+        alt: 'Elegant Interio - Best Interior Designers in Hyderabad, Telangana',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Elegant Interio | Bespoke Interior Designers in Hyderabad',
-    description: 'Luxury home and commercial interiors crafted for modern lifestyles by Elegant Interio.',
-    images: [`${siteUrl}/images/slider-1.jpg`],
+    title: 'Elegant Interio | Best Interior Designers in Hyderabad, Telangana',
+    description: 'Luxury residential & commercial interior design services in Hyderabad. Award-winning designers. 60+ projects. Free consultation.',
+    images: [`${siteUrl}/logo-white.png`],
   },
   robots: {
     index: true,
@@ -74,6 +114,10 @@ export const metadata: Metadata = {
     ],
     shortcut: ['/favicon.ico'],
   },
+  verification: {
+    google: 'your-google-verification-code',
+  },
+  category: 'Interior Design',
 };
 
 export default function RootLayout({
@@ -92,20 +136,107 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'Organization',
+              '@type': 'InteriorDesignBusiness',
               name: 'Elegant Interio',
+              alternateName: 'Elegant Interio Interior Designers',
               url: siteUrl,
-              email: 'info@elegantinterio.com',
               logo: `${siteUrl}/logo-white.png`,
-              sameAs: [
-                'https://maps.app.goo.gl/7X88wqtGi7tdbJWP6'
-              ],
+              image: `${siteUrl}/logo-white.png`,
+              description: 'Hyderabad\'s leading interior design company offering luxury residential and commercial interior design services. Award-winning designers with 60+ completed projects.',
+              email: 'info@elegantinterio.com',
+              telephone: '+91 90103 53837',
+              priceRange: '$$',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: 'Road Number 14, Alkapur Township, Puppalguda',
+                addressLocality: 'Manikonda',
                 addressRegion: 'Telangana',
                 postalCode: '500089',
                 addressCountry: 'IN',
+              },
+              geo: {
+                '@type': 'GeoCoordinates',
+                latitude: '17.4065',
+                longitude: '78.3242',
+              },
+              areaServed: [
+                {
+                  '@type': 'City',
+                  name: 'Hyderabad',
+                  addressRegion: 'Telangana',
+                  addressCountry: 'IN',
+                },
+                {
+                  '@type': 'State',
+                  name: 'Telangana',
+                  addressCountry: 'IN',
+                },
+              ],
+              serviceArea: {
+                '@type': 'GeoCircle',
+                geoMidpoint: {
+                  '@type': 'GeoCoordinates',
+                  latitude: '17.4065',
+                  longitude: '78.3242',
+                },
+                geoRadius: {
+                  '@type': 'Distance',
+                  name: '50 km',
+                },
+              },
+              hasOfferCatalog: {
+                '@type': 'OfferCatalog',
+                name: 'Interior Design Services',
+                itemListElement: [
+                  {
+                    '@type': 'Offer',
+                    itemOffered: {
+                      '@type': 'Service',
+                      name: 'Residential Interior Design',
+                      description: 'Luxury home interior design services in Hyderabad',
+                    },
+                  },
+                  {
+                    '@type': 'Offer',
+                    itemOffered: {
+                      '@type': 'Service',
+                      name: 'Commercial Interior Design',
+                      description: 'Office and commercial space interior design in Hyderabad',
+                    },
+                  },
+                  {
+                    '@type': 'Offer',
+                    itemOffered: {
+                      '@type': 'Service',
+                      name: 'Space Planning',
+                      description: 'Professional space planning and layout design services',
+                    },
+                  },
+                  {
+                    '@type': 'Offer',
+                    itemOffered: {
+                      '@type': 'Service',
+                      name: 'Color Consultation',
+                      description: 'Expert color consultation and palette selection',
+                    },
+                  },
+                  {
+                    '@type': 'Offer',
+                    itemOffered: {
+                      '@type': 'Service',
+                      name: 'Furniture Selection',
+                      description: 'Curated furniture selection and procurement services',
+                    },
+                  },
+                  {
+                    '@type': 'Offer',
+                    itemOffered: {
+                      '@type': 'Service',
+                      name: 'Renovation Services',
+                      description: 'Complete renovation and remodeling services',
+                    },
+                  },
+                ],
               },
               contactPoint: [
                 {
@@ -113,8 +244,73 @@ export default function RootLayout({
                   contactType: 'customer service',
                   email: 'info@elegantinterio.com',
                   telephone: '+91 90103 53837',
-                  areaServed: 'IN',
+                  areaServed: ['IN', 'Telangana', 'Hyderabad'],
                   availableLanguage: ['English', 'Hindi', 'Telugu'],
+                },
+                {
+                  '@type': 'ContactPoint',
+                  contactType: 'sales',
+                  telephone: '+91 90103 53837',
+                  areaServed: ['IN', 'Telangana', 'Hyderabad'],
+                  availableLanguage: ['English', 'Hindi', 'Telugu'],
+                },
+              ],
+              sameAs: [
+                'https://maps.app.goo.gl/7X88wqtGi7tdbJWP6',
+              ],
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '5.0',
+                reviewCount: '60',
+                bestRating: '5',
+                worstRating: '1',
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              name: 'Elegant Interio',
+              image: `${siteUrl}/logo-white.png`,
+              '@id': siteUrl,
+              url: siteUrl,
+              telephone: '+91 90103 53837',
+              priceRange: '$$',
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: 'Road Number 14, Alkapur Township, Puppalguda',
+                addressLocality: 'Manikonda',
+                addressRegion: 'Telangana',
+                postalCode: '500089',
+                addressCountry: 'IN',
+              },
+              geo: {
+                '@type': 'GeoCoordinates',
+                latitude: '17.4065',
+                longitude: '78.3242',
+              },
+              openingHoursSpecification: [
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: [
+                    'Monday',
+                    'Tuesday',
+                    'Wednesday',
+                    'Thursday',
+                    'Friday',
+                  ],
+                  opens: '09:00',
+                  closes: '18:00',
+                },
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Saturday',
+                  opens: '10:00',
+                  closes: '16:00',
                 },
               ],
             }),

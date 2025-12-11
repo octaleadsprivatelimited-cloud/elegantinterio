@@ -4,16 +4,35 @@ import Image from 'next/image';
 import { ArrowRight, Home, Building, Palette, Ruler, Sofa, Wrench, Lightbulb, CheckCircle, Star } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Interior Design Services in Hyderabad | Elegant Interio',
+  title: 'Interior Design Services in Hyderabad | Complete Design Solutions | Elegant Interio',
   description:
-    'Explore Elegant Interio’s turnkey interior design services for luxury homes, offices, restaurants, and retail spaces in Hyderabad. From 3D design to execution, we craft bespoke spaces that match your lifestyle.',
+    'Complete interior design services in Hyderabad. Residential, commercial, space planning, color consultation, furniture selection, renovation. Turnkey solutions. Free consultation. Call +91 90103 53837.',
   keywords: [
-    'Elegant Interio services',
+    'interior design services Hyderabad',
+    'residential interior design services',
+    'commercial interior design services',
     'turnkey interior design Hyderabad',
-    'residential interior designers Telangana',
-    'commercial interior design solutions Hyderabad',
-    'Hyderabad interior design packages',
+    'interior design packages Hyderabad',
+    'complete interior design services',
+    'home interior services Hyderabad',
+    'office interior services Hyderabad',
+    'interior design consultation Hyderabad',
+    'interior design solutions Hyderabad',
+    'Elegant Interio services',
+    'best interior design services Hyderabad',
+    'luxury interior design services',
+    'affordable interior design services',
   ],
+  openGraph: {
+    title: 'Interior Design Services in Hyderabad | Elegant Interio',
+    description: 'Complete interior design services in Hyderabad. Residential, commercial & turnkey solutions. Free consultation.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Interior Design Services Hyderabad' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/services',
+  },
 };
 
 const Services = () => {

@@ -4,16 +4,34 @@ import { ArrowLeft, Calendar, User, Clock, Tag, Share2, Facebook, Twitter, Linke
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Modern Interior Design Trends 2024 | Elegant Interio',
+  title: 'Modern Interior Design Trends 2024 | Latest Design Ideas | Elegant Interio Hyderabad',
   description:
-    'Elegant Interio highlights the top interior design trends for 2024—covering sustainable materials, smart home integrations, and bold palettes tailored for Hyderabad spaces.',
+    'Discover the top 10 modern interior design trends for 2024. Sustainable materials, smart home integration, bold colors, and contemporary styles for homes in Hyderabad. Expert insights from Elegant Interio.',
   keywords: [
-    '2024 interior design trends Hyderabad',
-    'Elegant Interio modern design',
-    'smart home interior trends',
-    'sustainable interior trends 2024',
-    'Hyderabad design inspiration 2024',
+    'interior design trends 2024',
+    'modern interior design trends 2024',
+    'latest interior design trends',
+    'interior design trends Hyderabad',
+    'home design trends 2024',
+    'modern home interiors 2024',
+    'contemporary interior design trends',
+    'sustainable interior design trends',
+    'smart home interior design',
+    'interior design ideas 2024',
+    'home decoration trends 2024',
+    'luxury interior design trends',
+    'Elegant Interio trends',
   ],
+  openGraph: {
+    title: 'Modern Interior Design Trends 2024 | Elegant Interio Hyderabad',
+    description: 'Discover the top 10 modern interior design trends for 2024. Expert insights for homes in Hyderabad.',
+    type: 'article',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Interior Design Trends 2024' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/blog/modern-interior-design-trends-2024',
+  },
 };
 
 export default function ModernInteriorDesignTrends2024() {

@@ -4,16 +4,41 @@ import Image from 'next/image';
 import { ArrowRight, Home, CheckCircle, Star, Clock, DollarSign, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Residential Interior Design Services | Elegant Interio Hyderabad',
+  title: 'Residential Interior Design Services in Hyderabad | Home Interiors | Elegant Interio',
   description:
-    'Elegant Interio designs bespoke residential interiors across Hyderabad—from luxury villas to contemporary apartments. Explore our turnkey home styling, renovation, and space optimisation services.',
+    'Best residential interior design services in Hyderabad. Luxury home interiors, apartment design, villa interiors, kitchen & bedroom design. Turnkey solutions. Free consultation. Call +91 90103 53837.',
   keywords: [
     'residential interior design Hyderabad',
-    'Elegant Interio homes',
-    'luxury home interiors Telangana',
-    'Hyderabad apartment interior designers',
+    'home interior designers Hyderabad',
+    'luxury home interiors Hyderabad',
+    'apartment interior design Hyderabad',
     'villa interior design Hyderabad',
+    'house interior design Hyderabad',
+    'home renovation Hyderabad',
+    'living room design Hyderabad',
+    'bedroom interior design Hyderabad',
+    'kitchen interior design Hyderabad',
+    'modern home interiors Hyderabad',
+    'contemporary home design Hyderabad',
+    'luxury residential interiors Telangana',
+    'home styling Hyderabad',
+    'interior decoration Hyderabad',
+    'home makeover Hyderabad',
+    'residential interior contractors Hyderabad',
+    'home interior solutions Hyderabad',
+    'Elegant Interio residential',
+    'best home interior designers Hyderabad',
   ],
+  openGraph: {
+    title: 'Residential Interior Design Services in Hyderabad | Elegant Interio',
+    description: 'Luxury residential interior design services in Hyderabad. Home, apartment & villa interiors. Free consultation.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Residential Interior Design Hyderabad' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/residential-design',
+  },
 };
 
 const ResidentialDesign = () => {

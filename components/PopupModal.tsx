@@ -43,7 +43,7 @@ const PopupModal = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://formspree.io/f/xdklqadr', {
+      const response = await fetch('https://formspree.io/f/xpwvolbj', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

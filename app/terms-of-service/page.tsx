@@ -3,15 +3,21 @@ import Link from 'next/link';
 import { ArrowLeft, FileText, Scale, Shield, AlertTriangle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Elegant Interio',
+  title: 'Terms of Service | Elegant Interio - Interior Designers Hyderabad',
   description:
-    'Review Elegant Interio’s terms of service covering consultations, project execution, payments, and intellectual property for our Hyderabad interior design services.',
+    'Terms of Service for Elegant Interio - Interior Designers in Hyderabad. Review our service agreements, project terms, payment policies, and intellectual property rights.',
   keywords: [
-    'Elegant Interio terms',
-    'interior design service agreement Hyderabad',
-    'Elegant Interio policies',
-    'Hyderabad interior design contract terms',
+    'Elegant Interio terms of service',
+    'interior design terms and conditions',
+    'service agreement',
   ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/terms-of-service',
+  },
 };
 
 const TermsOfService = () => {

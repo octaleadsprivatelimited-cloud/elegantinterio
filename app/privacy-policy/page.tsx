@@ -3,14 +3,21 @@ import Link from 'next/link';
 import { ArrowLeft, Shield, Eye, Lock, Database, UserCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Elegant Interio',
+  title: 'Privacy Policy | Elegant Interio - Interior Designers Hyderabad',
   description:
-    'Understand how Elegant Interio collects, stores, and uses personal data when you interact with our Hyderabad interior design studio online or offline.',
+    'Privacy Policy for Elegant Interio - Interior Designers in Hyderabad. Learn how we collect, store, and protect your personal data. GDPR compliant privacy practices.',
   keywords: [
     'Elegant Interio privacy policy',
-    'interior design data protection Hyderabad',
-    'privacy practices Elegant Interio',
+    'privacy policy interior design',
+    'data protection policy',
   ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/privacy-policy',
+  },
 };
 
 const PrivacyPolicy = () => {

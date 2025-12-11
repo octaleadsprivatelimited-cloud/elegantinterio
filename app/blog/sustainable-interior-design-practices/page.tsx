@@ -4,16 +4,34 @@ import { ArrowLeft, Calendar, User, Clock, Tag, Share2, Facebook, Twitter, Linke
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sustainable Interior Design Practices | Elegant Interio',
+  title: 'Sustainable Interior Design Practices | Eco-Friendly Interiors | Elegant Interio Hyderabad',
   description:
-    'Elegant Interio shares actionable strategies to build eco-friendly interiors in Hyderabad—from conscious material selection to energy-efficient planning.',
+    'Learn sustainable interior design practices for eco-friendly homes in Hyderabad. Green materials, energy-efficient design, eco-conscious interior solutions. Expert guide from Elegant Interio.',
   keywords: [
-    'sustainable interior design Hyderabad',
-    'eco friendly interiors Elegant Interio',
-    'green materials Telangana',
-    'energy efficient interior design tips',
-    'sustainable home renovation Hyderabad',
+    'sustainable interior design',
+    'eco friendly interior design',
+    'green interior design',
+    'sustainable home design',
+    'eco friendly materials',
+    'green building materials',
+    'energy efficient interior design',
+    'sustainable design practices',
+    'environmentally friendly interiors',
+    'green home design',
+    'sustainable renovation',
+    'eco conscious interior design',
+    'Elegant Interio sustainable',
   ],
+  openGraph: {
+    title: 'Sustainable Interior Design Practices | Elegant Interio Hyderabad',
+    description: 'Expert guide to sustainable and eco-friendly interior design practices for homes in Hyderabad.',
+    type: 'article',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Sustainable Interior Design' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/blog/sustainable-interior-design-practices',
+  },
 };
 
 export default function SustainableInteriorDesignPractices() {

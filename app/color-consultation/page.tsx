@@ -4,16 +4,37 @@ import Image from 'next/image';
 import { ArrowRight, Palette, CheckCircle, Star, Eye, Lightbulb, Target } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Color Consultation Services | Elegant Interio',
+  title: 'Color Consultation Services in Hyderabad | Interior Color Experts | Elegant Interio',
   description:
-    'Elegant Interio’s colour consultants craft cohesive palettes for homes and commercial spaces in Hyderabad—balancing trends, brand language, and ambience.',
+    'Expert color consultation services in Hyderabad. Interior color schemes, paint selection, color psychology. Residential & commercial. Free consultation. Call +91 90103 53837.',
   keywords: [
     'color consultation Hyderabad',
-    'Elegant Interio color experts',
-    'interior color schemes Telangana',
-    'paint selection consultants Hyderabad',
-    'brand colour strategy interiors',
+    'interior color consultation Hyderabad',
+    'paint color selection Hyderabad',
+    'interior color schemes Hyderabad',
+    'color palette design Hyderabad',
+    'color psychology interior design',
+    'paint consultants Hyderabad',
+    'interior color experts Hyderabad',
+    'home color consultation Hyderabad',
+    'office color design Hyderabad',
+    'color scheme design Hyderabad',
+    'interior paint selection Hyderabad',
+    'color coordination services Hyderabad',
+    'Elegant Interio color consultation',
+    'best color consultants Hyderabad',
+    'interior color planning Hyderabad',
   ],
+  openGraph: {
+    title: 'Color Consultation Services in Hyderabad | Elegant Interio',
+    description: 'Expert color consultation & paint selection services in Hyderabad. Free consultation.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Color Consultation Services Hyderabad' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/color-consultation',
+  },
 };
 
 const ColorConsultation = () => {

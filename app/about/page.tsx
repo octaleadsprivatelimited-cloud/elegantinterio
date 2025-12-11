@@ -4,16 +4,35 @@ import Link from 'next/link';
 import { ArrowRight, Award, Users, Target, CheckCircle, Star, Quote } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Elegant Interio | Interior Designers in Hyderabad',
+  title: 'About Elegant Interio | Best Interior Designers in Hyderabad | Our Story',
   description:
-    'Discover the Elegant Interio story. From our studio in Alkapur Township, Hyderabad, we deliver bespoke residential and commercial interiors backed by a collaborative design team and turnkey execution.',
+    'Learn about Elegant Interio - Hyderabad\'s leading interior design company. Award-winning designers with 60+ projects. Located in Alkapur Township, Puppalguda, Manikonda. 6+ years experience. Free consultation.',
   keywords: [
-    'Elegant Interio about',
+    'about Elegant Interio',
+    'interior design company Hyderabad',
     'interior design studio Hyderabad',
     'Alkapur Township interior designers',
-    'luxury residential interiors Telangana',
-    'commercial interior design experts Hyderabad',
+    'Puppalguda interior design',
+    'Manikonda interior designers',
+    'interior design team Hyderabad',
+    'award winning interior designers Hyderabad',
+    'experienced interior designers Hyderabad',
+    'best interior design company Hyderabad',
+    'Elegant Interio story',
+    'interior design experts Hyderabad',
+    'luxury interior designers Hyderabad',
+    'professional interior designers Hyderabad',
   ],
+  openGraph: {
+    title: 'About Elegant Interio | Best Interior Designers in Hyderabad',
+    description: 'Learn about Elegant Interio - Award-winning interior designers in Hyderabad. 60+ projects. 6+ years experience.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'About Elegant Interio' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/about',
+  },
 };
 
 const About = () => {

@@ -4,16 +4,37 @@ import Image from 'next/image';
 import { ArrowRight, Sofa, CheckCircle, Star, Home, Users, Target } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Furniture Selection Services | Elegant Interio',
+  title: 'Furniture Selection Services in Hyderabad | Custom Furniture | Elegant Interio',
   description:
-    'Elegant Interio curates bespoke furniture solutions for residences and workspaces in Hyderabad—tailored to your layout, lifestyle, and brand identity.',
+    'Professional furniture selection services in Hyderabad. Custom furniture, luxury furniture, interior styling. Residential & commercial. Free consultation. Call +91 90103 53837.',
   keywords: [
     'furniture selection Hyderabad',
-    'custom furniture sourcing Elegant Interio',
-    'luxury furniture consultants Telangana',
-    'interior styling Hyderabad',
+    'custom furniture Hyderabad',
+    'luxury furniture Hyderabad',
+    'interior furniture selection Hyderabad',
+    'furniture consultants Hyderabad',
+    'home furniture selection Hyderabad',
+    'office furniture selection Hyderabad',
     'bespoke furniture Hyderabad',
+    'furniture sourcing Hyderabad',
+    'interior styling Hyderabad',
+    'furniture procurement Hyderabad',
+    'furniture design Hyderabad',
+    'modular furniture Hyderabad',
+    'Elegant Interio furniture',
+    'best furniture consultants Hyderabad',
+    'furniture selection services Hyderabad',
   ],
+  openGraph: {
+    title: 'Furniture Selection Services in Hyderabad | Elegant Interio',
+    description: 'Professional furniture selection & custom furniture services in Hyderabad. Free consultation.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Furniture Selection Services Hyderabad' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/furniture-selection',
+  },
 };
 
 const FurnitureSelection = () => {

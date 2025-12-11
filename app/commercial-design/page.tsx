@@ -4,16 +4,40 @@ import Image from 'next/image';
 import { ArrowRight, Building, CheckCircle, Star, Users, Target, Award } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Commercial Interior Design Services | Elegant Interio Hyderabad',
+  title: 'Commercial Interior Design Services in Hyderabad | Office & Retail Interiors | Elegant Interio',
   description:
-    'Elegant Interio delivers high-performance commercial interiors for offices, retail, hospitality, and healthcare brands across Hyderabad. From concept to build, we align every space with your business goals.',
+    'Top commercial interior design services in Hyderabad. Office design, retail store interiors, restaurant design, showroom design. Turnkey solutions. Free consultation. Call +91 90103 53837.',
   keywords: [
-    'commercial interior designers Hyderabad',
-    'office interior design Elegant Interio',
-    'retail store interiors Telangana',
+    'commercial interior design Hyderabad',
+    'office interior design Hyderabad',
+    'retail store interior design Hyderabad',
+    'restaurant interior design Hyderabad',
+    'showroom interior design Hyderabad',
+    'corporate office design Hyderabad',
+    'commercial space design Hyderabad',
+    'office renovation Hyderabad',
+    'workplace design Hyderabad',
+    'co-working space design Hyderabad',
     'hospitality interior design Hyderabad',
-    'workplace design consultants Hyderabad',
+    'retail interior designers Hyderabad',
+    'commercial interior contractors Hyderabad',
+    'office interior designers Hyderabad',
+    'commercial interior solutions Hyderabad',
+    'Elegant Interio commercial',
+    'best commercial interior designers Hyderabad',
+    'office space planning Hyderabad',
+    'retail space design Hyderabad',
   ],
+  openGraph: {
+    title: 'Commercial Interior Design Services in Hyderabad | Elegant Interio',
+    description: 'Professional commercial interior design services in Hyderabad. Office, retail & restaurant design. Free consultation.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Commercial Interior Design Hyderabad' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/commercial-design',
+  },
 };
 
 const CommercialDesign = () => {

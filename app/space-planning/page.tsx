@@ -4,16 +4,38 @@ import Image from 'next/image';
 import { ArrowRight, Ruler, CheckCircle, Star, Home, Users, Target } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Space Planning Services | Elegant Interio Hyderabad',
+  title: 'Space Planning Services in Hyderabad | Floor Plan Design | Elegant Interio',
   description:
-    'Optimise every square foot with Elegant Interio’s expert space planning services. We craft intelligent layouts for apartments, villas, offices, and retail spaces across Hyderabad.',
+    'Expert space planning services in Hyderabad. Floor plan design, furniture layout, small space optimization. Residential & commercial. Free consultation. Call +91 90103 53837.',
   keywords: [
     'space planning Hyderabad',
-    'Elegant Interio space optimisation',
-    'floor plan design Telangana',
+    'floor plan design Hyderabad',
     'furniture layout planning Hyderabad',
     'small space interior design Hyderabad',
+    'space optimization Hyderabad',
+    'interior space planning Hyderabad',
+    'room layout design Hyderabad',
+    'floor plan services Hyderabad',
+    'space planning consultants Hyderabad',
+    'interior layout design Hyderabad',
+    'residential space planning Hyderabad',
+    'commercial space planning Hyderabad',
+    'apartment space planning Hyderabad',
+    'office space planning Hyderabad',
+    'Elegant Interio space planning',
+    'best space planning services Hyderabad',
+    'interior space design Hyderabad',
   ],
+  openGraph: {
+    title: 'Space Planning Services in Hyderabad | Elegant Interio',
+    description: 'Expert space planning & floor plan design services in Hyderabad. Residential & commercial. Free consultation.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Space Planning Services Hyderabad' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/space-planning',
+  },
 };
 
 const SpacePlanning = () => {

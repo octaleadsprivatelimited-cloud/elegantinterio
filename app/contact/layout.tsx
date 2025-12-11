@@ -1,22 +1,34 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Elegant Interio | Interior Design Studio in Hyderabad',
+  title: 'Contact Elegant Interio | Interior Design Studio Hyderabad | Free Consultation',
   description:
-    'Connect with Elegant Interio for bespoke interior design consultations. Visit our studio at Road Number 14, Alkapur Township, Puppalguda, Manikonda, Telangana 500089 or email info@elegantinterio.com.',
+    'Contact Elegant Interio for free interior design consultation in Hyderabad. Visit our studio at Road Number 14, Alkapur Township, Puppalguda, Manikonda, Telangana 500089. Call +91 90103 53837 or email info@elegantinterio.com.',
   keywords: [
-    'Elegant Interio contact',
+    'contact Elegant Interio',
     'interior design consultation Hyderabad',
+    'interior design studio Hyderabad',
     'Alkapur Township interior design studio',
-    'hyderabad interior design appointment',
+    'Puppalguda interior design',
+    'Manikonda interior designers',
+    'interior design appointment Hyderabad',
+    'free consultation Hyderabad',
+    'interior design quote Hyderabad',
     'info@elegantinterio.com',
+    'Elegant Interio phone number',
+    'interior designers contact Hyderabad',
+    'book consultation Hyderabad',
+    'interior design studio address Hyderabad',
   ],
   openGraph: {
-    title: 'Contact Elegant Interio | Schedule Your Interior Design Consultation',
-    description:
-      'Book a consultation with Elegant Interio’s design team in Hyderabad. Email info@elegantinterio.com or plan a visit to our Alkapur Township studio.',
+    title: 'Contact Elegant Interio | Interior Design Studio Hyderabad',
+    description: 'Book a free consultation with Elegant Interio. Visit our studio in Alkapur Township, Puppalguda or call +91 90103 53837.',
     type: 'website',
     locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Contact Elegant Interio' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/contact',
   },
 };
 

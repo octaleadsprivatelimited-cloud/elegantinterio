@@ -1,22 +1,34 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Elegant Interio Blog | Interior Design Tips & Trends',
+  title: 'Interior Design Blog | Design Tips, Trends & Ideas | Elegant Interio Hyderabad',
   description:
-    'Stay updated with Elegant Interio’s insights on luxury interiors, colour theory, space optimisation, and project management for homes and commercial spaces in Hyderabad.',
+    'Read Elegant Interio\'s interior design blog for expert tips, latest trends, color ideas, space planning advice, and design inspiration for homes and offices in Hyderabad.',
   keywords: [
-    'Elegant Interio blog',
+    'interior design blog Hyderabad',
     'interior design tips Hyderabad',
-    'luxury interior trends Telangana',
-    'space planning advice Hyderabad',
-    'colour palette ideas Elegant Interio',
+    'interior design trends Hyderabad',
+    'home design ideas Hyderabad',
+    'office design tips Hyderabad',
+    'interior design inspiration Hyderabad',
+    'color scheme ideas',
+    'space planning tips',
+    'interior design advice',
+    'home decoration ideas',
+    'modern interior design trends',
+    'luxury interior design ideas',
+    'interior design guide',
+    'Elegant Interio blog',
   ],
   openGraph: {
-    title: 'Elegant Interio Blog | Inspiration for Hyderabad Interiors',
-    description:
-      'Read expert guidance from Elegant Interio’s design team on creating functional, stylish interiors for homes and businesses.',
+    title: 'Interior Design Blog | Elegant Interio Hyderabad',
+    description: 'Expert interior design tips, trends, and inspiration for homes and offices in Hyderabad.',
     type: 'website',
     locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Interior Design Blog' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/blog',
   },
 };
 

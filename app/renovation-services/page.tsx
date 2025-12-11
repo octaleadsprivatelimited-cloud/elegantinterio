@@ -4,16 +4,37 @@ import Image from 'next/image';
 import { ArrowRight, Wrench, CheckCircle, Star, Home, Users, Target } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Renovation Services | Elegant Interio Hyderabad',
+  title: 'Renovation Services in Hyderabad | Home & Office Renovation | Elegant Interio',
   description:
-    'Upgrade your home or commercial space with Elegant Interio’s end-to-end renovation services. We manage design, procurement, execution, and quality control across Hyderabad.',
+    'Complete renovation services in Hyderabad. Home renovation, office renovation, interior remodeling. Turnkey solutions. Free consultation. Call +91 90103 53837.',
   keywords: [
     'home renovation Hyderabad',
+    'office renovation Hyderabad',
+    'interior renovation Hyderabad',
+    'house renovation Hyderabad',
+    'apartment renovation Hyderabad',
+    'commercial renovation Hyderabad',
+    'renovation contractors Hyderabad',
+    'interior remodeling Hyderabad',
+    'home makeover Hyderabad',
+    'office makeover Hyderabad',
+    'turnkey renovation Hyderabad',
+    'luxury renovation Hyderabad',
+    'renovation services Hyderabad',
     'Elegant Interio renovation',
-    'office renovation Telangana',
-    'turnkey remodeling Hyderabad',
-    'luxury interior renovation Hyderabad',
+    'best renovation services Hyderabad',
+    'interior renovation contractors Hyderabad',
   ],
+  openGraph: {
+    title: 'Renovation Services in Hyderabad | Elegant Interio',
+    description: 'Complete home & office renovation services in Hyderabad. Turnkey solutions. Free consultation.',
+    type: 'website',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Renovation Services Hyderabad' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/renovation-services',
+  },
 };
 
 const RenovationServices = () => {

@@ -4,16 +4,34 @@ import { ArrowLeft, Calendar, User, Clock, Tag, Share2, Facebook, Twitter, Linke
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Perfect Color Palette for Your Home | Elegant Interio',
+  title: 'Perfect Color Palette for Your Home | Color Selection Guide | Elegant Interio Hyderabad',
   description:
-    'Elegant Interio explains how to build cohesive colour palettes for your Hyderabad home, combining colour psychology, finish selection, and room-by-room planning.',
+    'Learn how to choose the perfect color palette for your home in Hyderabad. Color psychology, room-by-room color schemes, paint selection tips. Expert guidance from Elegant Interio interior designers.',
   keywords: [
-    'home color palette Hyderabad',
-    'Elegant Interio colour consultation',
-    'interior colour schemes Telangana',
-    'paint colour ideas Hyderabad',
-    'colour psychology interiors',
+    'home color palette',
+    'interior color schemes',
+    'paint color selection',
+    'color palette for home',
+    'interior color ideas',
+    'home color consultation',
+    'color psychology interior design',
+    'room color schemes',
+    'paint color ideas',
+    'interior color planning',
+    'home color design',
+    'color coordination interior',
+    'Elegant Interio color',
   ],
+  openGraph: {
+    title: 'Perfect Color Palette for Your Home | Elegant Interio Hyderabad',
+    description: 'Expert guide to choosing the perfect color palette for your home. Color psychology and selection tips.',
+    type: 'article',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Home Color Palette Guide' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/blog/perfect-color-palette-home',
+  },
 };
 
 export default function PerfectColorPaletteHome() {

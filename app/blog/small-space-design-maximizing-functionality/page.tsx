@@ -4,16 +4,34 @@ import { ArrowLeft, Calendar, User, Clock, Tag, Share2, Facebook, Twitter, Linke
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Small Space Design: Maximizing Functionality | Elegant Interio',
+  title: 'Small Space Design: Maximizing Functionality | Space Saving Tips | Elegant Interio Hyderabad',
   description:
-    'Elegant Interio outlines smart design tactics for compact Hyderabad homes—covering zoning, storage hacks, multi-purpose furniture, and visual expansion techniques.',
+    'Expert tips for maximizing functionality in small spaces. Storage solutions, multi-purpose furniture, space-saving ideas for apartments and compact homes in Hyderabad. Design guide from Elegant Interio.',
   keywords: [
-    'small space design Hyderabad',
-    'Elegant Interio compact homes',
-    'space saving furniture ideas',
-    'storage solutions apartments Hyderabad',
-    'interior design tips for small homes',
+    'small space design',
+    'small apartment design',
+    'space saving furniture',
+    'storage solutions small spaces',
+    'compact home design',
+    'small space interior design',
+    'apartment space optimization',
+    'space saving ideas',
+    'small home design tips',
+    'compact space design',
+    'multi-purpose furniture',
+    'small space storage',
+    'Elegant Interio small spaces',
   ],
+  openGraph: {
+    title: 'Small Space Design: Maximizing Functionality | Elegant Interio Hyderabad',
+    description: 'Expert tips for maximizing functionality in small spaces. Storage solutions and space-saving ideas.',
+    type: 'article',
+    locale: 'en_IN',
+    images: [{ url: 'https://elegantinterio.com/logo-white.png', alt: 'Small Space Design Tips' }],
+  },
+  alternates: {
+    canonical: 'https://elegantinterio.com/blog/small-space-design-maximizing-functionality',
+  },
 };
 
 export default function SmallSpaceDesignMaximizingFunctionality() {
