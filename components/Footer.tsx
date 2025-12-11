@@ -26,6 +26,7 @@ const Footer = () => {
     { name: 'Portfolio', href: '/portfolio' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Sitemap', href: '/sitemap.xml' },
   ];
 
   const serviceLinks = [
