@@ -47,7 +47,7 @@ const Header = () => {
         {/* Top Bar (desktop only) - hides on scroll */}
         <div
           className={`hidden lg:block bg-gradient-to-r from-primary-600 to-primary-700 text-white overflow-hidden transition-all duration-300 ${
-            isScrolled ? 'max-h-0 py-0' : 'max-h-12 py-2'
+            isScrolled ? 'max-h-0 py-0' : 'max-h-8 py-1'
           }`}
         >
           <div className="container-custom">
@@ -73,7 +73,7 @@ const Header = () => {
           }`}
         >
           <div className="container-custom">
-            <div className="flex items-center justify-between h-14 lg:h-14">
+            <div className="flex items-center justify-between h-12 lg:h-12">
               {/* Logo */}
               <div className="flex items-center flex-shrink-0">
                 <Link href="/" className="flex items-center">
@@ -83,7 +83,7 @@ const Header = () => {
                     width={160}
                     height={48}
                     priority
-                    className="h-10 w-auto sm:h-12"
+                    className="h-8 w-auto sm:h-9"
                   />
                 </Link>
               </div>
@@ -302,7 +302,7 @@ const Header = () => {
       </div>
 
       {/* Spacer for fixed header - exact height to prevent content overlap */}
-      <div className="h-14 lg:h-[96px]"></div>
+      <div className="h-12 lg:h-20"></div>
     </>
   );
 };

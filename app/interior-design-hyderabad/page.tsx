@@ -99,7 +99,7 @@ const InteriorDesignHyderabad = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-accent-900 text-white py-20 lg:py-32 -mt-14 lg:-mt-[96px]">
+      <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-accent-900 text-white py-20 lg:py-32 -mt-12 lg:-mt-20">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container-custom relative z-10">
           <div className="max-w-4xl mx-auto text-center">

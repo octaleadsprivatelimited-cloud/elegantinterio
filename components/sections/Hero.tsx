@@ -100,7 +100,7 @@ const Hero = () => {
   const currentSlideData = heroSlides[currentSlide];
 
   return (
-    <section className="relative h-screen overflow-hidden -mt-14 lg:-mt-[96px]">
+    <section className="relative h-screen overflow-hidden -mt-12 lg:-mt-20">
       {/* Background Images */}
       <div className="absolute inset-0 w-full h-full">
         {heroSlides.map((slide, index) => (
@@ -126,7 +126,7 @@ const Hero = () => {
       </div>
 
       {/* Top Caption - Mobile Only */}
-      <div className="absolute top-32 left-0 right-0 z-20 flex items-start justify-center lg:hidden">
+      <div className="absolute top-24 left-0 right-0 z-20 flex items-start justify-center lg:hidden">
         <motion.div 
           className="text-center"
           initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -154,7 +154,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-end justify-center pb-16 lg:items-center lg:py-24 pt-40 lg:pt-[200px] w-full" style={{ willChange: 'auto' }}>
+      <div className="relative z-10 h-full flex items-end justify-center pb-16 lg:items-center lg:py-24 pt-32 lg:pt-24 w-full" style={{ willChange: 'auto' }}>
         <div className="container-custom px-4 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 w-full items-start lg:items-center">
             {/* Left Column - Hero Content */}

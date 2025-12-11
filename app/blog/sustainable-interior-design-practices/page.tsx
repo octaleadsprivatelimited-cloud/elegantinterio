@@ -38,7 +38,7 @@ export default function SustainableInteriorDesignPractices() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-r from-accent to-brown-600 -mt-14 lg:-mt-[96px]">
+      <section className="relative h-96 bg-gradient-to-r from-accent to-brown-600 -mt-12 lg:-mt-20">
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 container-custom h-full flex items-center">
           <div className="max-w-4xl">
